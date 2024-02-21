@@ -32,9 +32,7 @@ const vue_app = Vue.createApp({
       data() {
         return {
             // This holds your movies.json data.
-            movies: [
-
-            ],
+            movies: [],
 
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
             title: 'IMDB + Angelina Top 8 Movies',
@@ -50,6 +48,3 @@ const vue_app = Vue.createApp({
 })
 
 vue_app.mount("#vue_app")
-
-
-// https://blog.piio.co/posts/how-to-use-images-in-vue-js
