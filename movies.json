@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "Harry Potter",
+            "iscore": 7.6,
+            "rating": "PG",
+            "runtime": 152,
+            "released": [2001, 11, 16],
+            "country": "UK",
+            "posters": ["img/h1.jpg", "img/h2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0241527/?ref_=nv_sr_srsg_1_tt_4_nm_3_q_harry",
+            "website": "https://www.facebook.com/harrypotter/",
+            "likes": 8000,
+            "dislikes": 100,
+            "posterindex": 0
+      },
+      {
+            "title": "Avatar: Tthe Last Airbender",
+            "iscore": 7.5,
+            "rating": "TV-14",
+            "runtime": 55,
+            "released": [2024, 2, 22],
+            "country": "USA",
+            "posters": ["img/a1.jpeg", "img/a2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt9018736/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_avatar",
+            "website": "https://www.facebook.com/AvatarNetflix/",
+            "likes": 5000,
+            "dislikes": 100,
+            "posterindex": 0
+      },
+      {
+            "title": "Studio Ghibli",
+            "iscore": 8.1,
+            "rating": "G",
+            "runtime": 86,
+            "released": [1988, 7, 13],
+            "country": "Japan",
+            "posters": ["img/t1.jpg", "img/p1.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0096283/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_my%2520nei",
+            "website": "https://www.facebook.com/GhibliUSA/",
+            "likes": 10000,
+            "dislikes": 100,
+            "posterindex": 0
       }
 ]

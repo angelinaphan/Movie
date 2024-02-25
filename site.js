@@ -35,18 +35,53 @@ const vue_app = Vue.createApp({
             movies: [],
 
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
+            trueMonths: ['January', 
+            'February', 
+            'March', 
+            'April', 
+            'May', 
+            'June', 
+            'July', 
+            'August', 
+            'September',
+            'October',
+            'November', 
+            'December'],
+            
             title: 'IMDB + Angelina Top 8 Movies',
             owner: 'Angelina Phan',
-            github: 'https:/github.com/angelinaphan/Movie'
+            github: 'https:/github.com/angelinaphan/Movie',
          
       }
     },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
-            getMonthText: function(dataArray) {
-                  var nameOfMonth;
-                  var releaseDate;
-            }
+   getMonthText(dateArray) {
+      var year = dateArray[0];
+      var month = this.trueMonths[dateArray[1] - 1];
+      var day = dateArray[2];
+      return month + ' ' + day + ', ' + year;
+  },
+
+  like(index){
+      this.movies[index].likes++;
+  },
+  dislike(index){
+      this.movies[index].dislikes++;
+  },
+  posterClick(index){
+      if(this.movies[index].posterindex < this.movies[index].posters.length) {
+            this.movies[index].posterindex++;
+      };
+      if(this.movies[index].posterindex >= this.movies[index].posters.length) {
+            this.movies[index].posterindex = 0;
+      }
+  },
+  timeText(minutes){
+      var hours = Math.floor(minutes/60);
+      var minute = minutes % 60;
+      return hours + ' hours ' + minute + ' minutes';
+  },
       }
 })
 
