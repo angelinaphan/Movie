@@ -50,7 +50,7 @@ const vue_app = Vue.createApp({
             
             title: 'IMDB + Angelina Top 8 Movies',
             owner: 'Angelina Phan',
-            github: 'https:/github.com/angelinaphan/Movie',
+            github: 'https:/github.com/angelinaphan/Movie.git',
          
       }
     },
